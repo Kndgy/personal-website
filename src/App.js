@@ -32,24 +32,19 @@ function App() {
 
         
           <div className="tab first" style={{cursor: "pointer"}} onClick={discord} >
-            
-          <i class="fab fa-discord"></i>
             Discord <span className="hover first"> Kan#9105</span>
           </div>
         
           <div className="tab second" style={{cursor: "pointer"}} onClick={github}>
-          <i class="fab fa-github"></i>
-            Github
+            Github <span className="hover first">Kndgy</span>
           </div>
          
           <div className="tab third" style={{cursor: "pointer"}} onClick={linkedin}>
-            <i class="fab fa-linkedin"></i>
-            Linked In
+            LinkedIn <span className="hover first">Rafli Ghani</span>
           </div>
           
           <div className="tab fourth" style={{cursor: "pointer"}} onClick={mail}>
-          <i class="fas fa-envelope"></i>
-            Email
+            Email <span className="hover first">ghanirafli8@gmail.com</span>
           </div>
          
       </div>
