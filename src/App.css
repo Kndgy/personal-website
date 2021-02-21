@@ -31,6 +31,7 @@ a{
   line-height: 37px;
   padding-left: 25px;
   transition: 0.2s;
+  margin-left: 10px;
 }
 
 .tab:hover{
