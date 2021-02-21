@@ -19,11 +19,11 @@ a{
   font-family: Arial, Helvetica, sans-serif;
   background-color: #bcab99;
   color: #45433a;
-  width: 250px;
-  margin-bottom: 25px;
-  height: 30px;
-  font-size: 16px;
-  line-height: 30px;
+  width: 332px;
+  margin-bottom: 32px;
+  height: 37px;
+  font-size: 20px;
+  line-height: 37px;
   padding-left: 10px;
   transition: 0.2s;
 }
@@ -53,7 +53,7 @@ a{
 .ver{
   margin-left: 5px;
   width: 10px;
-  height: 195px;
+  height: 244px;
   background-color: #bcab99;
 }
 
