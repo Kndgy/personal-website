@@ -67,3 +67,28 @@ a{
 .ver.nd{
   width:5px;
 }
+
+@media(max-width: 800px){
+  .App{
+    padding-left: 37px;
+  }
+  .vertical{
+    margin-right: 10px;
+  }
+  .tab{
+    width: 200px;
+    height: 27px;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 24px;
+  }
+
+  .ver{
+    width: 7.5px;
+    height: 180px;
+  }
+
+  .ver.nd{
+    width: 3.5px;
+  }
+}
