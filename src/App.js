@@ -32,25 +32,25 @@ function App() {
           </div>
         
         </div>
-        <div className="block">
+        <ul className="block">
 
-            <div className="tab first" style={{cursor: "pointer"}} onClick={discord} >
+            <li className="tab first" style={{cursor: "pointer"}} onClick={discord} >
               <FontAwesomeIcon icon={['fab', 'discord']} style={{marginRight:'10px'}}/>Discord <span className="hover first"> Kan#9105</span>
-            </div>
+            </li>
           
-            <div className="tab second" style={{cursor: "pointer"}} onClick={github}>
+            <li className="tab second" style={{cursor: "pointer"}} onClick={github}>
               <FontAwesomeIcon icon={['fab', 'github-square']} style={{marginRight:'10px'}}/>Github <span className="hover first">Kndgy</span>
-            </div>
+            </li>
           
-            <div className="tab third" style={{cursor: "pointer"}} onClick={linkedin}>
+            <li className="tab third" style={{cursor: "pointer"}} onClick={linkedin}>
               <FontAwesomeIcon icon={['fab', 'linkedin']} style={{marginRight:'10px'}}/>LinkedIn <span className="hover first">Rafli Ghani</span>
-            </div>
+            </li>
             
-            <div className="tab fourth" style={{cursor: "pointer"}} onClick={mail}>
+            <li className="tab fourth" style={{cursor: "pointer"}} onClick={mail}>
               <FontAwesomeIcon icon={['fas', 'envelope-square']} style={{marginRight:'10px'}}/>Email <span className="hover first">ghanirafli8@gmail.com</span>
-            </div>
+            </li>
           
-        </div>
+        </ul>
       </div>
    
   );

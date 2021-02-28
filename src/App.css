@@ -18,32 +18,38 @@ a{
 
 .tab{
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #bcab99;
-  color: #45433a;
   width: 320px;
   margin-bottom: 32px;
+  margin-left: -30px;
   height: 37px;
   font-size: 20px;
   line-height: 37px;
   padding-left: 10px;
   transition: 0.2s;
-  margin-left: 10px;
+  list-style-type: none;
+  -initialTextColor: #45433a;
+      --slideTextColor: #bcab99;
+      --initialTextColor:#45433a;
+      --initialBgColor: #bcab99;
+      --slideBgColor: #45433a;
+      color: var(--initialTextColor);
+  background-image: linear-gradient(90deg,
+      var(--initialBgColor) 50%,
+      var(--initialBgColor) 50%,
+      var(--slideBgColor) 50%,
+      var(--slideBgColor) 100%);
+      background-size: 200%;
+      transition: .2s linear;
+      transition-delay: 0.0s, 0.1s;
 }
 
 .tab:hover{
-  background-color: #45433a;
-  color: #bcab99;
   visibility: visible;
-  margin-left: 5%;
+  color: var(--slideTextColor);
+  background-position: -100%;
 }
 
 .tab .hover {
-  visibility: hidden;
-  color: #45433a;
-}
-
-.tab:hover .hover{
-  visibility: visible;
   color: #bcab99;
 }
 
@@ -54,6 +60,7 @@ a{
   align-items: center;
   justify-content: center;
   margin-bottom: 32px;
+  list-style-type: none;
 }
 
 .ver{
@@ -68,13 +75,16 @@ a{
 }
 
 @media(max-width: 800px){
+
   .App{
     padding-left: 37px;
   }
+
   .vertical{
     margin-right: 10px;
     margin-bottom: 24px;
   }
+  
   .tab{
     width: 215px;
     height: 27px;
@@ -84,7 +94,7 @@ a{
   }
 
   .tab:hover{
-    margin-left: 7.5%;
+    margin-left: 10%;
   }
 
   .ver{
